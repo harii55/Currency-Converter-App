@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+
+        <div id="head">
+
+        <img src="money-exchange.png" id="money" >
+       <header class="head"> Currency Calculator</header>
+       </div>
+       
+       <div class="wrapper">
+        <form action="#">
+            <div class = "amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class = "from">
+                    <p>From</p>
+                    <div class="select-box">
+
+                        <img src="https://flagsapi.com/US/flat/64.png" id="from">                  
+                       
+                        <select name="from" class="from">
+                            <option>USA</option>
+                        </select>
+                        
+                    </div>
+                </div>
+            
+
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+           
+                <div class = "to">
+                    <p>To</p>
+                <div class="select-box">
+                
+                <img src="https://flagsapi.com/IN/flat/64.png" id="to">             
+                
+                <select name="to" class="to">
+                    <option>INR</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+            <!-- <div class="exchange-rates"><p id="conv"> 1 USD = 118.16 INR </p></div> -->
+            <button class="btn">Get Exchange Rates</button>
+            <button class="exchange-rates"> <p class="conv"> 1 USD = 84.33 INR </p></div></button> 
+        </div>
+        
+        
+        </form>
+    
+    
+    </div>
+    </body>
+
+    <script src="countrylist.js"></script>   
+    <script src="script.js"></script>
+    
+</body>
+</html>
