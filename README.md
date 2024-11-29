@@ -9,7 +9,7 @@ This repository contains the APK file of our mobile app. Follow the instructions
 
 ### *1. For Android Devices*
 1. *Download the APK File*  
-   - Download the APK file from the repository [here](#) (replace with the link to your APK file).  
+   - Download the APK file from the repository.
 
 2. *Enable "Install Unknown Apps"*  
    - Open your device *Settings*.  
