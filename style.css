@@ -168,3 +168,14 @@ form button{
     margin-top: 5px;
 
 }
+
+@media (min-width: 1024px) {
+  body {
+    transform: scale(1.2) translateY(-20px); /* Zoom + shift upward */
+    transform-origin: top left;
+    width: calc(100% / 1.2);
+    height: calc(100% / 1.2);
+    overflow: hidden;
+  }
+}
+
