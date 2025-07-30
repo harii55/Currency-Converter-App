@@ -171,11 +171,12 @@ form button{
 
 @media (min-width: 1024px) {
   body {
-    transform: scale(1.2) translateY(-20px); /* Zoom + shift upward */
+    transform: scale(1.1) translateY(-10px); /* Slight zoom + small upward shift */
     transform-origin: top left;
-    width: calc(100% / 1.2);
-    height: calc(100% / 1.2);
+    width: calc(100% / 1.1);
+    height: calc(100% / 1.1);
     overflow: hidden;
   }
 }
+
 
